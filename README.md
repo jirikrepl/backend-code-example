@@ -23,5 +23,3 @@ This workflow outlines the key steps involved in generating Gift Voucher PDFs fo
 
 4. **Email Attachment**:
     - The generated PDF file is made available as an email attachment, ready to be sent in the payment confirmation email.
-
-# jiri-krepl-backend-code-example

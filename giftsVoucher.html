@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{rootUrl}}/images/gifts/giftsVoucher/giftsVoucher.css">
+</head>
+<body>
+    <div id="top-section" class="section">
+        <img id="app-logo" src="{{rootUrl}}/images/gifts/giftsVoucher/logo/{{appName}}AppLogo.jpg" alt="app logo">
+
+        <div id="title-wrap">
+            <h1 id="title">
+                <img src="{{rootUrl}}/images/gifts/giftsVoucher/gift.jpg" alt="gift icon">
+                <span>{{_ 'giftsVoucher.topSection.title'}}</span>
+            </h1>
+            <h4>{{_ 'giftsVoucher.topSection.subtitle'}}</h4>
+        </div>
+    </div>
+    <div id="middle-section" class="section">
+        <h3 class="text-center">{{_ 'giftsVoucher.middleSection.title'}}</h3>
+        <div class="row">
+            <div id="gift-code-tile">
+                <div id="gift-code-wrap">
+                    <span id="code-title" class="text-uppercase">{{_ 'common.giftCode'}}</span>
+                    <div id="gift-code">
+                        <img src="{{rootUrl}}/images/gifts/giftsVoucher/giftCodeBackground.jpg"
+                             alt="gift code background">
+                        <div class="h2">{{giftCode}}</div>
+                    </div>
+                </div>
+            </div>
+            <div id="features">
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/lessonUnlock.jpg" alt="lessonUnlock">
+                    <span>{{_ 'commonBundle.course'}}</span>
+                </div>
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/training.jpg" alt="training">
+                    <span>{{_ 'routes.trainingGroups.title'}}</span>
+                </div>
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/certificate.jpg" alt="certificate">
+                    <span>{{_ 'common.plus.certificate.short'}}</span>
+                </div>
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/statistics.jpg" alt="statistics">
+                    <span>{{_ 'common.plus.statistics'}}</span>
+                </div>
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/nightMode.jpg" alt="night mode">
+                    <span>{{_ 'common.plus.nightMode'}}</span>
+                </div>
+                <div class="feature">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/plusFeatures/keyboardShortcuts.jpg" alt="keyboard shortcuts">
+                    <span>{{_ 'common.plus.keyboardShortcuts.short'}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-section" class="section">
+        <h3 class="text-center">{{_ 'giftsVoucher.bottomSection.title'}}</h3>
+        <div class="row">
+            <div id="first-step" class="step">
+                <h4>1</h4>
+                <div id="icon-feat">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/browser.jpg" alt="computer">
+                </div>
+
+                <div class="instructions">
+                    <h5>{{currentDomain}}</h5>
+                    <p>{{_ 'giftsVoucher.bottomSection.firstStep.text'}}</p>
+                </div>
+            </div>
+            <div class="step">
+                <h4>2</h4>
+                <div id="icon-feat">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/settings.jpg" alt="computer">
+                </div>
+
+                <div class="instructions">
+                    <h5>{{_ 'giftsVoucher.bottomSection.secondStep.title'}}</h5>
+                    <p>{{_ 'giftsVoucher.bottomSection.secondStep.text'}}</p>
+                </div>
+            </div>
+            <div id="third-step" class="step">
+                <h4>3</h4>
+                <div id="icon-feat">
+                    <img src="{{rootUrl}}/images/gifts/giftsVoucher/giftStep.jpg" alt="computer">
+                </div>
+
+                <div class="instructions">
+                    <h5>{{_ 'giftsVoucher.bottomSection.thirdStep.title'}}</h5>
+                    <p>{{_ 'giftsVoucher.bottomSection.thirdStep.text'}}</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-muted">
+            <small>{{_ 'giftsVoucher.bottomSection.thirdStep.gopayId' gopayId=gopayId}}</small>
+        </p>
+    </div>
+</body>
+</html>
